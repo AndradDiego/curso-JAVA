@@ -7,6 +7,7 @@ public class Main {
         double raio = scanner.nextDouble();
         double area = 3.14159 * (raio * raio);
         System.out.format("A =%.4f ", area);
+        scanner.close();
 
     }
  
