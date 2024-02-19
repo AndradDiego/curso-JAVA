@@ -8,7 +8,8 @@ public class Main {
         int n1 = inteiros.nextInt();
         int n2 = inteiros.nextInt();
         int PROD = n1 * n2;
-        System.out.println("PROD = "+PROD);
+        System.out.format("PROD = %d",PROD);
+        inteiros.close();
         
     }
 }
